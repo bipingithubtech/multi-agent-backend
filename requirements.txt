@@ -1,0 +1,4 @@
+# Requirements for multi-agent-backend
+# Add your project dependencies below, one per line.
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
