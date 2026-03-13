@@ -5,23 +5,23 @@ This backend powers the **AI agent orchestration using LangChain** and provides 
 
 ## Tech Stack
 
-* Python
-* FastAPI
-* LangChain
-* AI Agents
-* REST APIs
-* Docker
-* Async Processing
+- Python
+- FastAPI
+- LangChain
+- AI Agents
+- REST APIs
+- Docker
+- Async Processing
 
 ## Features
 
-* 🤖 **Multi-agent system powered by LangChain**
-* ⚡ High-performance APIs built with FastAPI
-* 🔗 API layer for the **Next.js PWA frontend**
-* 🧠 Agent orchestration and task execution
-* 🔌 Integration with LLMs and external tools
-* 📦 Modular and scalable backend architecture
-* 🐳 Docker-ready deployment
+- 🤖 **Multi-agent system powered by LangChain**
+- ⚡ High-performance APIs built with FastAPI
+- 🔗 API layer for the **Next.js PWA frontend**
+- 🧠 Agent orchestration and task execution
+- 🔌 Integration with LLMs and external tools
+- 📦 Modular and scalable backend architecture
+- 🐳 Docker-ready deployment
 
 ## Architecture Overview
 
@@ -105,10 +105,6 @@ Server runs at:
 http://localhost:8000
 ```
 
-
-
-
-
 ReDoc
 
 ```id="dquyo2"
@@ -139,5 +135,9 @@ Frontend Repository:
 https://github.com/bipingithubtech/multi-agent-frontend
 ```
 
+<!-- commad to new migration generate  -->
+<!--1: alembic revision --autogenerate -m "your migration description" -->
+<!-- <!-- alembic upgrade head  -->
 
-
+<!-- this help downgrade -->
+<!--  alembic downgrade -1-->
